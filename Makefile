@@ -1,4 +1,3 @@
-
 compile:
-	gcc -lpthread server.c -o server
-	gcc -lpthread client.c -o client
+	gcc -lpthread src/server.c -o server
+	gcc -lpthread src/client.c -o client
